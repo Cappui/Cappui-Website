@@ -309,6 +309,16 @@
 		    margin-bottom: 0px;
 		}
 
+		section.features, section.howitworks-one, section.blog {
+  				background: #E8EAF3 url("../img/poly-2.png") no-repeat right center;}
+
+		 .howitworks-one .logo-placeholder {
+  		  		display: none;
+ 	     }
+
+ 	       .howitworks-one h3 {
+			  margin-top: 10px;
+			 }
 
 		.btn-margin-right {
 			margin-right: 0px;
