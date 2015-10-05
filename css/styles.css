@@ -440,7 +440,6 @@ header {
     color: #fff;
     font-size: 80px;
     position: absolute;
-    bottom: 400px;
     left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
