@@ -625,7 +625,8 @@ Features-stack
 .howitworks-two
 ========================================================================== */
 .howitworks-two {
-  padding-top: 160px; }
+  padding-top: 160px;
+  background: #f2f2f2; }
   .howitworks-two h3 {
     margin-bottom: 70px; }
   .howitworks-two .leftcol {
