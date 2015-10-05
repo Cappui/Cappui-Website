@@ -253,6 +253,22 @@
 			 }
 
 
+		.hero-strip {
+		 margin-top: 0px;
+			
+		}
+
+		.hero-strip h2 {
+		    font-size: 17px;
+		}		
+		.hero-strip h3 {
+		    font-size: 14px;
+		}
+		.hero-strip p {
+		    line-height: 1px;
+		    font-size: 10px;
+		}
+
 		footer ul.footer-group li {
 			display: block;
 		}
@@ -305,22 +321,6 @@
 		    line-height: 29px;
 		    margin-top: 7px;
 		    margin-bottom: 0px;
-		}
-
-		.hero-strip {
-		 margin-top: 0px;
-			
-		}
-
-		.hero-strip h2 {
-		    font-size: 17px;
-		}		
-		.hero-strip h3 {
-		    font-size: 14px;
-		}
-		.hero-strip p {
-		    line-height: 1px;
-		    font-size: 10px;
 		}
 
 
