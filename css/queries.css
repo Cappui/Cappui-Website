@@ -208,9 +208,21 @@
 		width: 100%;
 	}
 
-	.hero-strip {
-		margin-top: 0;
-	}
+		.hero-strip {
+		 margin-top: 0px;
+			
+		}
+
+		.hero-strip h2 {
+		    font-size: 17px;
+		}		
+		.hero-strip h3 {
+		    font-size: 14px;
+		}
+		.hero-strip p {
+		    line-height: 1px;
+		    font-size: 10px;
+		}
 
 	.blog-intro .leftcol {
 		padding: 0 15px;
@@ -254,6 +266,8 @@
 	}
 
 	@media screen and (max-width:480px) {
+
+
 		.hero {
            min-height: 470px;           
         }

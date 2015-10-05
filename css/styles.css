@@ -604,6 +604,10 @@ Features-stack
     margin-bottom: 120px;
     text-align: center;
   }
+  .howitworks-one .logo-placeholder {
+    padding-left: 25px;
+  }
+
   .howitworks-one p {
     font-size: 15px;
     line-height: 30px;
