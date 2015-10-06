@@ -407,7 +407,11 @@ header {
     header a.login {
       margin-right: 20px; }
   header .logo {
-    display: inline-block; }
+    display: inline-block; 
+    width: 200px;
+    height: 59px;
+    background: url("../img/CappuiLogo.png") no-repeat center center;
+  }
   header ul.primary-nav {
     margin: 0 0 0 25px;
     padding: 0; }
@@ -606,6 +610,9 @@ Features-stack
   .howitworks-one .logo-placeholder {
     padding-left: 25px;
     text-align: center;
+    width: 100%;
+    height: 479px;
+    background: url("../img/networkgraph.png") no-repeat center center;
   }
 
   .howitworks-one p {
