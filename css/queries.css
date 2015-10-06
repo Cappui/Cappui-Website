@@ -5,7 +5,7 @@
 
 	.intro-content {
 		display: inline-block;
-		width: 70%;
+
 	}
 
 	.hero .hero-content {
@@ -179,7 +179,7 @@
 
 	.intro-content {
 		display: inline-block;
-		width: 75%;
+	    width: 95%;
 		margin-bottom: 30px;
 	}
 
@@ -245,6 +245,10 @@
 			background: #E8EAF3 url("../img/poly-2.png") no-repeat right center;}
 
 		 .howitworks-one .logo-placeholder {
+  		  		display: none;
+ 	     }
+
+ 	      .howitworks-two .logo-placeholder {
   		  		display: none;
  	     }
 
