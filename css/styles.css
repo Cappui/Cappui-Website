@@ -76,7 +76,7 @@ h5 {
 .btn-margin-right {
   margin-right: 20px; }
 
-section.intro, section.features-extra, section.howitworks-two section.sign-up {
+section.intro, section.intro-three, section.features-extra, section.howitworks-two section.sign-up {
   background: #fff; }
 
 section.intro-two {
@@ -462,6 +462,24 @@ Intro
   color: #12DCB5;
   font-weight: bold; }
 
+ .intro-two h5 {
+     font-size: 28px;
+    color: #3D4351;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+.intro-three span.icon {
+  font-size: 40px;
+  color: #12DCB5;
+  font-weight: bold; }
+
+ .intro-three h5 {
+     font-size: 28px;
+    color: #3D4351;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
 
 .intro-icon {
   display: inline-block;
