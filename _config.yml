@@ -2,7 +2,6 @@
 title: Famoi | Financial Asset Management Operations Infrastructure
 email: daf@famoi.com
 description: Famoi Limited is a Subsidery company of Cappui Limited a UK Reigstered Company. 
-baseurl: '/cappui'
 url: "http://cappui.com" # the base hostname & protocol for your site
 twitter_username: CappuiLabs
 port: 5000
