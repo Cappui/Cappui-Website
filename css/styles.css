@@ -661,6 +661,30 @@ Features-stack
     padding-left: 100px; }
 
 
+/* ==========================================================================
+.consulting
+========================================================================== */
+.consulting {
+  padding-top: 160px;
+  background: url("../img/03.png") no-repeat center center;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);}
+  .consulting h3 {
+  font-size: 25px;
+  color: #f2f2f2; }
+  .consulting .leftcol {
+    padding-right: 100px;
+    border-right: solid 1px #E6E9EA; }
+  .consulting .rightcol {
+    padding-left: 100px; }
+  .consulting .panel-default>.panel-heading {
+    background-color: #218A75;
+  }
+  .consulting .list-group-item {
+    background-color: #FFF;
+  }
+
+
 
 /* ==========================================================================
 .blog
