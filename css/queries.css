@@ -182,6 +182,10 @@
 	    width: 95%;
 		margin-bottom: 30px;
 	}
+	 .howitworks-one h3 {
+		margin-top: 30px;
+		font-size: 21px;
+	}
 
 	.last {
 		margin: 0;
@@ -241,20 +245,20 @@
 			border-bottom: dashed 1px #4E566C;
 		}
 
-		section.features, section.howitworks-one, section.blog {
-			background: #E8EAF3 url("../img/poly-2.png") no-repeat right center;}
+ 
 
-		 .howitworks-one .logo-placeholder {
-  		  		display: none;
- 	     }
+ 	     .howitworks-one h3 {
+		    margin-top: 10px;
+		    font-size: 21px;
+		}
 
- 	      .howitworks-two .logo-placeholder {
-  		  		display: none;
- 	     }
-
- 	       .howitworks-one h3 {
-			  margin-top: 10px;
-			 }
+		.howitworks-one p {
+		    font-size: 15px;
+		    line-height: 30px;
+		    color: #fff;
+		    padding-bottom: 20px;
+		    font-weight: 300;
+		}
 
 
 		.hero-strip {

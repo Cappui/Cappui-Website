@@ -1,7 +1,7 @@
 # Site settings
-title: Famoi | Financial Asset Management Operations Infrastructure
+title: Cappui | Technology Infrastructure Done Right
 email: daf@famoi.com
-description: Famoi Limited is a Subsidery company of Cappui Limited a UK Reigstered Company. 
+description: Cappui's an experimental technology lab that builds commercially viable ventures focused on financial technology (FinTech) and decentralised blockchain applications, plus various other small micro-projects.
 url: "http://cappui.com" # the base hostname & protocol for your site
 twitter_username: CappuiLabs
 port: 5000

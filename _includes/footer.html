@@ -3,7 +3,7 @@
             <div class="row">
                <div class="col-md-12">  
                  <div class="social-share">
-                    <p>Share Cappui with your collegues and friends!</p>
+                    <p>Follow Cappui!</p>
                     <a href="https://twitter.com/CappuiLabs"  target="_blank" class="twitter-share"><i class="fa fa-twitter"></i></a> 
                      <a href="https://www.facebook.com/CappuiLabs"  target="_blank" class="facebook-share"><i class="fa fa-facebook"></i></a>  
                 </div>
@@ -13,14 +13,10 @@
                 <div class="col-md-7">
                     <div class="footer-links">
                         <ul class="footer-group">
-                            <li><a href="#intro">Introduction</a></li>
-                            <li><a href="#ventures">Ventures</a></li>
-                            <li><a href="#micro">Micro-Projects</a></li>
-                            <li><a href="#consulting">Consulting</a></li>
-                            <li><a href="">Have an idea?</a></li>   
+                            <li><a href="/#products">Products</a></li>
+                            <li><a href="/about/">About</a></li>
                             <li><a href="https://medium.com/journal-of-cappui" target="_blank">Journal</a></li>                                  
-                            <li><a href="#">Terms</a></li>
-                            <li><a href="http://cappui.com/">Cappui</a></li>
+                            <li><a href="#idea">Have an idea?</a></li>   
                         </ul>
                         <p>Copyright © 2015 <a href="#">Cappui</a><br>
                         <a href="#">Terms</a> | Crafted with love by<span class="fa fa-heart pulse2"></span> by <a href="http://cappui.com/">Cappui</a>.</p>
@@ -36,9 +32,21 @@
  <script src="{{ "/js/jquery.fancybox.pack.js" | prepend: site.baseurl }}"></script>
  <script src="{{ "/js/vendor/bootstrap.min.js" | prepend: site.baseurl }}"></script>
  <script src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
- <script src="{{ "/js/jquery.flexslider-min.js" | prepend: site.baseurl }}"></script>
  <script src="{{ "/bower_components/classie/classie.js" | prepend: site.baseurl }}"></script>
  <script src="{{ "/bower_components/jquery-waypoints/lib/jquery.waypoints.min.js" | prepend: site.baseurl }}"></script>
+
+
+<script src="{{ "/js/cbpFWTabs.js" | prepend: site.baseurl }}"></script>
+<script>
+    (function() {
+
+        [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+            new CBPFWTabs( el );
+        });
+
+    })();
+</script>
+
  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
  <script>
 (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
