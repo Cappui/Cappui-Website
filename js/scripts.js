@@ -18,16 +18,7 @@ $(document).ready(function() {
 		offset: '75%'
 	});
 
-	/***************** Initiate Flexslider ******************/
-	$('.flexslider').flexslider({
-		animation: "slide"
-	});
 
-	/***************** Initiate Fancybox ******************/
-
-	$('.single_image').fancybox({
-		padding: 4,
-	});
 
 	/***************** Tooltips ******************/
     $('[data-toggle="tooltip"]').tooltip();
@@ -79,25 +70,6 @@ $(document).ready(function() {
 				});
 			}
 		});
-	});
-	/***************** Smooth Scrolling ******************/
-
-	$(function() {
-
-		$('a[href*=#]:not([href=#])').click(function() {
-			if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-
-				var target = $(this.hash);
-				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-				if (target.length) {
-					$('html,body').animate({
-						scrollTop: target.offset().top
-					}, 2000);
-					return false;
-				}
-			}
-		});
-
 	});
 
 });
